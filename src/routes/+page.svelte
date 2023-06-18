@@ -29,7 +29,7 @@
 	/>
 	<meta
 		property="og:image"
-		content="https://cdn.discordapp.com/attachments/854957876313063447/1079425200153710652/favicon.png"
+		content="https://media.discordapp.net/attachments/1087690796611940352/1119928240824406016/unordinary-gfx.png"
 	/>
 
 	<!-- Twitter -->
