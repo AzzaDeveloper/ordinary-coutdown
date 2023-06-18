@@ -10,6 +10,47 @@
         update()
     }, 1000);
 </script>
+<svelte:head>
+	<title>unORDINARY</title>
+	<!-- Primary Meta Tags -->
+	<meta name="title" content="unORDINARY" />
+	<meta
+		name="description"
+		content="Countdown until the game releases."
+	/>
+
+	<!-- Open Graph / Facebook -->
+	<meta property="og:type" content="website" />
+	
+	<meta property="og:title" content="unORDINARY" />
+	<meta
+		property="og:description"
+		content="Countdown until the game releases."
+	/>
+	<meta
+		property="og:image"
+		content="https://cdn.discordapp.com/attachments/854957876313063447/1079425200153710652/favicon.png"
+	/>
+
+	<!-- Twitter -->
+	
+	<meta property="twitter:title" content="unORDINARY" />
+	<meta
+		property="twitter:description"
+		content="Countdown until the game releases."
+	/>
+	<meta
+		property="twitter:image"
+		content="https://media.discordapp.net/attachments/1087690796611940352/1119928240824406016/unordinary-gfx.png"
+	/>
+	<!-- Meta stuff-->
+	
+	<meta name="author" content="Cyfer" />
+	<meta
+		name="description"
+		content="Countdown until the game releases."
+	/>
+</svelte:head>
 <div id="logoContainer">
     <img id="logo" src="v1.png" alt="logo">
     <img id="alpha" src="alpha.png" alt="alpha">
