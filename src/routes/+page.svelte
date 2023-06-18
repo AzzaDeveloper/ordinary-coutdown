@@ -37,7 +37,7 @@
         font-size: 75px;
         border: 2px solid white;
         border-radius: 25px;
-        background: url(polka.png) repeat , linear-gradient(#4c4a50, #141414);
+        background: url(/polka.png) repeat , linear-gradient(#4c4a50, #141414);
         width: 75%;
         margin: auto;
         position: fixed;
