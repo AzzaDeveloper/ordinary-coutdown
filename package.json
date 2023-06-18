@@ -15,6 +15,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@rodneylab/svelte-social-icons": "^0.0.26",
 		"seconds-formater": "^2.0.3"
 	}
 }

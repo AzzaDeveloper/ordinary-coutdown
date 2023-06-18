@@ -1,5 +1,6 @@
 <script>
     import sf from 'seconds-formater';
+    import SocialIcons from '@rodneylab/svelte-social-icons';
     let timeLeft = "";
     function update() {
         timeLeft = sf.convert(1689422400 - (Date.now() / 1000)).format('D days HH hours M mins S secs')
@@ -60,6 +61,11 @@
         <b>{timeLeft}</b>
     </div>
 </div>
+<div id="socialIcons">
+    <a href="https://twitter.com/zone_zzzz11256" target="_blank"><SocialIcons network="twitter" alt="" fgColor="#ffffff" width="45" height="45"/></a>
+    <a href="https://www.youtube.com/channel/UCMl_uzcPFpYzfM9a-Ci6ZRA" target="_blank"><SocialIcons network="youtube" alt="" fgColor="#ffffff" width="45" height="45"/></a>
+    <a href="https://discord.gg/GZ7RyJuGHV" target="_blank"><SocialIcons network="discord" alt="" fgColor="#ffffff" width="45" height="45"/></a>
+</div>
 <style>
     #logoContainer {
         text-align: center;
@@ -83,6 +89,12 @@
         margin: auto;
         position: fixed;
         top: 80%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    #socialIcons {
+        position: fixed;
+        top: 95%;
         left: 50%;
         transform: translate(-50%, -50%);
     }
